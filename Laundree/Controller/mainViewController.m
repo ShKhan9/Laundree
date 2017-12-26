@@ -19,14 +19,16 @@ static NSString *CellIdentifier1 = @"ContentCell";
 @interface mainViewController ()
 {
     NSArray*allTabs;
-     NSArray*allBorders;
+    
+    NSArray*allBorders;
+  
     BOOL Once;
     
-     BOOL supportAnimRu;
+    BOOL supportAnimRu;
     
-     BOOL aboutAnimRu;
+    BOOL aboutAnimRu;
     
-     BOOL menuAnimRu;
+    BOOL menuAnimRu;
     
     NSInteger currentTap;
 }

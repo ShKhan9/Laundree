@@ -16,9 +16,9 @@
 {
     NSArray*allButtons;
     
-    NSInteger quantityNum   ;
+    NSInteger quantityNum;
     
-    NSInteger subTotalPrice   ;
+    NSInteger subTotalPrice;
     
     NSArray*allNames;
 }
@@ -35,7 +35,7 @@
     
     subTotalPrice = 0 ;
     
-    laundreeItem*la = [[DataClass getInstance].laundreeArr objectAtIndex:self.currentTap];
+  //  laundreeItem*la = [[DataClass getInstance].laundreeArr objectAtIndex:self.currentTap];
     
    // bigItem*b = [la.bigs objectAtIndex:self.currentRow] ;
     

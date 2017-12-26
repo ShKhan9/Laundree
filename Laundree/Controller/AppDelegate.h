@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-static NSString *kNews = @"kNews";
-static NSString *kProjectsSlider = @"kProjectsSlider";
-
+ 
 static NSString *kWash = @"Wash";
 static NSString *kDry = @"Dry";
 static NSString *kFold = @"Fold";

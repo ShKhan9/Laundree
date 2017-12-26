@@ -20,6 +20,7 @@
 
 @property NSInteger currentRow;
 
+
 - (IBAction)editClicked:(id)sender;
 
 - (IBAction)deleteClicked:(id)sender;

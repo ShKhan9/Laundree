@@ -17,9 +17,10 @@
 @property BOOL ar;
 @property(nonatomic,copy)NSMutableArray*laundreeArr;
 @property(nonatomic,copy)NSString*leftArrow;
-
 @property(nonatomic,copy)NSString*rightArrow;
+
 
 +(DataClass*)getInstance;
 +(bool)isNetworkAvailable;
+
 @end
